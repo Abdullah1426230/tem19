@@ -1,0 +1,126 @@
+ @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Karla', sans-serif;
+ }
+ 
+ :root {
+     --gray: #e5eff5;
+     --blue: #98a6bd;
+     --cyan: #2ab2af;
+     --yellow: #c0df34;
+ }
+ 
+ body {
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--gray);
+ }
+ 
+ main {
+     max-width: 800px;
+     overflow: hidden;
+     margin: auto;
+     width: 95%;
+     border-radius: 10px;
+     box-shadow: 0 0 999px 0 var(--blue);
+     background-color: white;
+ }
+ 
+ .one {
+     padding: 25px 35px;
+ }
+ 
+ .one h1 {
+     color: var(--cyan);
+     font-size: 32px;
+     margin: 5px 0 20px 0;
+ }
+ 
+ .one h3 {
+     color: var(--yellow);
+     margin-bottom: 10px;
+ }
+ 
+ .one p {
+     color: var(--blue);
+     line-height: 1.5;
+     font-size: 18px;
+ }
+ 
+ .flex {
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     width: 100%;
+     background-color: darkcyan;
+ }
+ 
+ .flex>div {
+     flex: 1;
+     min-width: 300px;
+ }
+ 
+ .two {
+     padding: 30px;
+     color: white;
+ }
+ 
+ .two h3 {
+     font-size: 28px;
+ }
+ 
+ .two p {
+     color: var(--gray);
+     vertical-align: middle;
+     margin: 10px 0 15px;
+ }
+ 
+ .two p span {
+     font-size: 36px;
+     color: white;
+     font-weight: bold;
+ }
+ 
+ .two p:last-of-type {
+     font-size: 18px;
+     color: white;
+ }
+ 
+ .two button {
+     display: block;
+     border: none;
+     width: 100%;
+     padding: 14px;
+     border-radius: 10px;
+     font-size: 18px;
+     color: white;
+     background-color: var(--yellow);
+     cursor: pointer;
+ }
+ 
+ .two button:hover {
+     background-color: var(--blue);
+ }
+ 
+ .three {
+     background-color: var(--cyan);
+     padding: 30px;
+     color: white;
+     height: 100%;
+ }
+ 
+ .three h3 {
+     font-size: 22px;
+     margin-bottom: 15px;
+ }
+ 
+ .three p {
+     color: var(--gray);
+     line-height: 1.3;
+ }
